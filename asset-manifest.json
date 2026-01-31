@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resume-score-analyzer/static/css/main.a839b876.css",
+    "main.js": "/resume-score-analyzer/static/js/main.2107f1dd.js",
+    "static/js/453.b1b92ac9.chunk.js": "/resume-score-analyzer/static/js/453.b1b92ac9.chunk.js",
+    "index.html": "/resume-score-analyzer/index.html",
+    "main.a839b876.css.map": "/resume-score-analyzer/static/css/main.a839b876.css.map",
+    "main.2107f1dd.js.map": "/resume-score-analyzer/static/js/main.2107f1dd.js.map",
+    "453.b1b92ac9.chunk.js.map": "/resume-score-analyzer/static/js/453.b1b92ac9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a839b876.css",
+    "static/js/main.2107f1dd.js"
+  ]
+}
