@@ -15,6 +15,13 @@ function App() {
     const selectedFile = e.target.files[0];
     if (!selectedFile) return;
 
+    // Validate file type - only PDF allowed
+    if (selectedFile.type !== "application/pdf") {
+      alert("Please upload a PDF file only");
+      e.target.value = ""; // Reset input
+      return;
+    }
+
     setLoading(true);
     setFile(null);
 
