@@ -15,10 +15,10 @@ function App() {
     const selectedFile = e.target.files[0];
     if (!selectedFile) return;
 
-    // Validate file type - only PDF allowed
+    // only PDF 
     if (selectedFile.type !== "application/pdf") {
       alert("Please upload a PDF file only");
-      e.target.value = ""; // Reset input
+      e.target.value = ""; 
       return;
     }
 
@@ -28,7 +28,7 @@ function App() {
     setTimeout(() => {
       setFile(selectedFile);
       setLoading(false);
-    }, 2000); // 2 seconds loading simulation
+    }, 2000); // 2 sec, 
   };
 
   return (
